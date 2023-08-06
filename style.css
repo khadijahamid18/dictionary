@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Lora', serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgb(161, 43, 161);
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: 'Lora', serif;
+}
+
+.cont {
+    /* display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 40px;
+    background-color: #ffffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 50px;
+    border-radius: 10px;
+    /* box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2); */
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#myInput {
+    padding: 5px;
+    width: 70%;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(161, 43, 161);
+}
+
+#btn {
+    padding: 15px 0px;
+    width: 25%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(161, 43, 161);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.result {
+    position: relative;
+}
+
+.result h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+
+.word {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.result button {
+    background-color: transparent;
+    color: rgb(161, 43, 161);
+    border: none;
+    width: 30%;
+}
+
+#volume {
+    width: 50%;
+    height: 50%;
+}
+
+.details {
+    display: flex;
+    gap: 5px;
+    color: #80818b;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+}
+
+.word-meaning {
+    color: #363964;
+}
+
+.word-example {
+    color: #363964;
+    font-style: italic;
+    border-left: 5px solid rgb(161, 43, 161);
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
